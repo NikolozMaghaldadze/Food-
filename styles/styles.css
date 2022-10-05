@@ -1,11 +1,11 @@
 .first-section{
     background-image: url(../images/Untitled-1.jpg);
     width: 100%;
-    max-height:1080px;
-    height: 100%;
+    height: auto;
     padding-bottom: 315px;
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 30px;
 }
 .content-wrap{
     display: -webkit-box;
@@ -233,7 +233,11 @@
         -ms-flex-direction: column;
             flex-direction: column;
 }
-
+.menu-item-wrap{
+    max-width: 444px;
+    width: 100%;
+    height: auto;
+}
 .menu-item:hover{
     -webkit-box-shadow: 0px 15px 15px #cecccc;
             box-shadow: 0px 15px 15px #cecccc;
@@ -392,6 +396,9 @@
 }
 
 .content-wrapper-1{
+    max-width: 444px;
+    width: 100%;
+    height: autos;
     margin-top:35px;
     -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
             box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
