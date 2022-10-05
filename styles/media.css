@@ -207,7 +207,7 @@
 @media(max-width:590px){
     .left-side-wrap{
         margin-top: 57px;
-        margin-left: 75px;
+        margin-left: 0px;
     }
     .footer-text-1{
         font-size: 14px;
@@ -238,6 +238,9 @@
     }
     .blocks-wrap{
         margin-top: 80px;
+    }
+    .full-wrapper{
+        margin-left: 20px;
     }
 }
 
